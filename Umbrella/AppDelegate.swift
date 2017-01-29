@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        fatalError("Look at me first")
+        //fatalError("Look at me first")
         // All the layout metrics are contained in the file called metrics.md located as a sibling of the AppDelegate.swift.
         // Reference screen shots are contained in the reference images folder located as a descendant of the Umbrella group
         
@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let coolColor = UIColor(0x03A9F4)
         
         // Setup the request
-        var weatherRequest = WeatherRequest(APIKey: "YOUR API KEY")
+        var weatherRequest = WeatherRequest(APIKey: "9bcd0881c4f997ea")
         
         // Set the zip code
         weatherRequest.zipCode = "90210"
